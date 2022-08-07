@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+
+    background-color: black;
+}
+
+.top_bar{
+
+    text-align: center;
+}
+
+h1.maintitle{
+
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    font: bolder;
+}
