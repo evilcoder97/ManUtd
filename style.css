@@ -1,3 +1,9 @@
+/* Google Fonts*/ 
+
+@import url('https://fonts.googleapis.com/css2?family=Quintessential&display=swap');
+
+
+
 *{
     margin: 0;
     padding: 0;
@@ -14,10 +20,39 @@ body{
 }
 
 h1.maintitle{
-
+    color: azure;
+    text-align: center;
     font-size: 50px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Quintessential',cursive;
     font-weight: 500;
     font-style: italic;
     font: bolder;
+}
+
+/** NavBar Styling **/
+
+
+nav{
+
+    background-color: rgb(220, 20, 60);
+    list-style: none;
+
+}
+
+nav ul{
+    overflow: auto;
+}
+
+nav li{
+    float: left ;
+    padding: 3px 3px ;
+    list-style: none;
+    margin: 2px 2px ;
+}
+
+nav li a {
+    padding: 3px 3px;
+    text-decoration: none;
+    color: white;
+
 }
